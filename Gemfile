@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'erubis', '~> 2.7'
+
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 gem 'bootstrap-sass', '~> 3.3.6'
